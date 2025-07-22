@@ -48,6 +48,6 @@ class LocationService: NSObject, ObservableObject, LocationServiceProtocol, CLLo
     }
     
     func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
-        permissionDenied = true
+        
     }
 } 

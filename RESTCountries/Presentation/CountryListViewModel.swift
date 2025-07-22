@@ -48,7 +48,7 @@ class CountryListViewModel: ObservableObject {
         locationService.permissionDeniedPublisher
             .sink { [weak self] denied in
                 guard let self = self, denied, !self.didSetInitialCountry else { return }
-                // Add default country (Pakistan)
+                // Add default country (Egypt)
                 if let country = self.allCountries.first(where: { $0.name.common == "Egypt" }) {
                     self.addCountry(country)
                     self.didSetInitialCountry = true
