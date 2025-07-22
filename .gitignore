@@ -1,0 +1,74 @@
+# Xcode
+#
+# gitignore contributors: remember to keep this file platform-agnostic
+# gitignore developers: add platform-specific rules in your .git/info/exclude
+
+## User-specific
+*.xcuserdatad
+*.user
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcuserstate
+project.xcworkspace/
+xcuserdata/
+
+## Build generated
+build/
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+## Various
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+
+## Obj-C/Swift specific
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+#
+# Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
+# Packages/
+# Package.resolved
+.build/
+.swiftpm/
+
+# Cocoapods
+#
+# We recommend against adding the Pods directory to your .gitignore. However
+# you should judge for yourself, the pros and cons are mentioned at:
+# https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
+#
+# Pods/
+
+# Carthage
+#
+# Add this line if you want to avoid checking in source code from Carthage dependencies.
+# Carthage/Checkouts
+Carthage/Build
+
+# fastlane
+#
+# It is recommended to not store sensitive data in this repository.
+# Instead, use environment variables.
+# More information about CI integrations:
+# https://docs.fastlane.tools/best-practices/source-control/
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Mac App Store
+#
+# Re-generated every time you submit a new version to the App Store.
+# *.pkg
+
+# Other
+.DS_Store
