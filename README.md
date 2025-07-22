@@ -7,7 +7,7 @@ A SwiftUI iOS app to search, add, and view country details using the REST Countr
 - Add up to 5 countries to your main view
 - Remove countries from the main view
 - Tap a country for a detailed view
-- Automatically adds your country based on GPS (or defaults to Pakistan if denied)
+- Automatically adds your country based on GPS (or defaults to Egypt if denied)
 - Offline support: added countries are saved locally
 - Unit tested core logic
 - **User-friendly:** Shows loading indicator and error messages for network issues
