@@ -29,12 +29,7 @@ class CountryRepository: CountryRepositoryProtocol {
     }
     
     func getAllCountries() async throws -> [Country] {
-        let local = storage.load()
-        if !local.isEmpty {
-            return local
-        }
         let remote = try await service.fetchAllCountries()
-        storage.save(countries: remote)
         return remote
     }
 } 
